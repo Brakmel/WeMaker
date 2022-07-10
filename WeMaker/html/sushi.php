@@ -123,6 +123,7 @@
                     <a href="https://www.instagram.com/">
                         <img class="ints" src="https://cdn-icons-png.flaticon.com/512/1409/1409946.png">
                     </a>
+               </div>
             </div>
         </div>
         <div class="mitad_footer_b">

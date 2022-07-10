@@ -59,10 +59,10 @@
             </div>
             <div class="footer_inferior_b">
                 <a href="https://github.com/Brakmel">
-                    <img class="Github" src="../style/Img/GitHub.PNG">
+                    <img class="Github" src="https://cdn-icons-png.flaticon.com/512/25/25231.png">
                 </a>
                 <a href="https://www.linkedin.com/in/brakmel-smith-2ab428241/">
-                    <img class="Github" src="../style/Img/LinkedIn.PNG">
+                    <img class="Github" src="https://cdn-icons-png.flaticon.com/512/174/174857.png">
                 </a>
             </div>
         </div>
