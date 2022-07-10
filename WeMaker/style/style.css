@@ -1,0 +1,402 @@
+body{
+    background-image: url(https://media.giphy.com/media/JUwa2qSoTwcxv0gFJh/giphy.gif);
+    background-color: black;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0%;
+}
+h1{
+    color: white;
+    font-size:40px;
+    margin: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+h2{
+    color: white;
+    font-size:30px;
+    margin: 3px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.footer_p{
+    font-size: 25px;
+    color: white;
+    margin: 10px; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.p_soporte{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+::-webkit-scrollbar {display: none;}
+/*Este es la cabeza de neustra pagina web principal*/
+header{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.mitad_header_a{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header_superior_a{
+    background-color: rgba(35, 22, 22, 0.99);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: row;
+}
+.header_inferior_a{
+    background-color: rgba(35, 22, 22, 0.99);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: row;
+}
+.mitad_header_b{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.header_superior_b{
+    background-color: rgba(35, 22, 22, 0.99);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: end;
+    flex-direction: row;
+}
+.header_inferior_b{
+    background-color: rgba(35, 22, 22, 0.99);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    flex-direction: row;
+}
+input{
+    background-color: rgba(70, 64, 64, 0.611);
+    color: white;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+    text-align: center;
+}
+input:hover{
+    background-color: rgba(240, 248, 255, 0.659);
+    cursor: pointer;
+    transition: 3s;
+}
+/*Este es el contenido principal de nuestra pagina web*/
+main{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.carta{
+    background-color: rgba(35, 17, 17, 0.816);
+    width: 45%;
+    height: 400px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 10px;
+}
+.precio{
+    width: 30%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+.titulo{
+    width: 70%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.info_p{
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.titulo_p{
+    text-align: center;
+    font-size: 28px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.descrip{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.precio_p{
+    color: aliceblue;
+    text-align: start;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.header_carta{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+img{
+    width: 55%;
+}
+img:hover{
+    transition: 3s;
+    transform: scale(1.6);
+}
+/*Aqui van nuestros pies de la pagina*/
+footer{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.mitad_footer_a{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer_superior_a{
+    background-color: rgba(35, 22, 22, 0.99);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: start;
+    flex-direction: row;
+}
+.footer_inferior_a{
+    background-color: rgba(35, 22, 22, 0.99);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.mitad_footer_b{
+    width: 50%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer_superior_b{
+    background-color: rgba(35, 22, 22, 0.99);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: end;
+    flex-direction: row;
+}
+.footer_inferior_b{
+    background-color: rgba(35, 22, 22, 0.99);
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: row;
+}
+/*Formularios*/
+.baul_form{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+form{
+    background-color: rgba(35, 17, 17, 0.816);
+    border-radius: 10px;
+    width: 80%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.form_name{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.forma_contacto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.form_asunto{
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.Apodo{
+    background-color: aliceblue;
+    width: 90%;
+    height: 35px;
+    margin: 10px;
+    color: black;
+}
+.Asunto{
+    background-color: aliceblue;
+    width: 50%;
+    height: 35px;
+    margin: 10px;
+    color: black;
+}
+.Direccion{
+    background-color: aliceblue;
+    width: 90%;
+    height: 35px;
+    margin: 10px;
+    color: black;
+}
+.Email{
+    background-color: aliceblue;
+    width: 42%;
+    height: 35px;
+    margin: 10px;
+    color: black;
+}
+.Numero{
+    background-color: aliceblue;
+    width: 42%;
+    height: 35px;
+    margin: 10px;
+    color: black;
+}
+.Explicar{
+    background-color: aliceblue;
+    width: 90%;
+    height: 150px;
+    margin: 10px;
+    color: black;
+}
+.password{
+    background-color: aliceblue;
+    width: 70%;
+    height: 35px;
+    margin: 10px;
+    color: black;
+}
+.form_submit{
+    width: 30%;
+    height: auto;
+}
+a{
+    color: aliceblue;
+    text-decoration: none;
+}
+.pildora_red{
+    width: 30%;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.wspp{
+    width: 30px;
+    border-radius: 30px;
+}
+.face{
+    width: 30px;
+    border-radius: 30px;
+}
+.ints{
+    width: 30px;
+    border-radius: 30px;
+}
+.Github{
+    width: 100px;
+    border-radius: 60px;
+    margin: 10px;
+}
+.Linkedin{
+    width: 100px;
+    border-radius: 60px;
+    margin: 10px;
+}
+.wspp:hover{
+    -webkit-transform: rotate(360deg);
+    transition: 1s ease-in-out;
+}
+.face:hover{
+    -webkit-transform: rotateX(360deg);
+    transition: 1s ease-in-out;
+}
+.ints:hover{
+    -webkit-transform: rotateY(360deg);
+    transition: 1s ease-in-out;
+}
+.Github:hover{
+    -webkit-transform: rotateY(360deg);
+    transition: 1s ease-in-out;
+}
+.Linkedin:hover{
+    -webkit-transform: rotateY(360deg);
+    transition: 1s ease-in-out;
+}
